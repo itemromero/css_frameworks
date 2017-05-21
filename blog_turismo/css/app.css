@@ -1,0 +1,140 @@
+body{
+	width: 95%;
+	margin:auto;
+	background-image: url(../img/sea.jpg);
+	background-size: cover;
+}
+
+.brand-logo{
+	margin: 1% 0% 0% 5%;
+	transition: .5s;
+}
+
+.nav-content{
+	  text-align:center;
+	  transition: .5s;
+}
+
+.nav-title {
+  margin: 0px 0px 0px 0px;
+}
+
+.altura_min_4{
+	min-height: 4rem;
+}
+
+.altura_min_50{
+	min-height: 50rem;	
+}
+
+.altura_25{
+	height: 25rem;
+}
+
+.caja_base{
+	border:1px solid yellow;
+}
+
+.margen_inferior_cero{
+	margin-bottom: 0px;
+}
+
+.float_left{
+	float: left;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.girar{
+	transition: .6s;
+}
+
+.girar:hover{
+	transform: rotate(360deg);
+	transition: 1s;
+}
+
+.collection2{
+	border: none;
+	margin: 0.5rem 0 1rem 0;
+	border-radius: 2px;
+	overflow: hidden;
+	position: relative;
+	transition: .6s;
+}
+
+.collection2 a i{
+	margin-bottom: 16px;
+	margin-top: 12px;
+}
+
+.col img{
+	max-width: 100%;
+	transition: .6s;
+}
+
+.valign-wrapper img:hover{
+	transform: scale(1.2,1.2);
+	transition: 1s;
+}
+
+.margen-superior{
+	margin-top: 2%;
+}
+
+.margen-izquierdo{
+	margin-left: 2%;
+}
+
+.card-bottom-line{
+	border-bottom: 1px solid gray;
+	margin-bottom: 28px
+}
+
+.page-footer {
+	padding: 5px 0 1px 0;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+@media (max-width: 600px) {
+	.brand-logo{
+		margin-left: 0%;
+		transition: .5s;
+	}
+
+	.nav-title {
+		text-align: center;
+		margin: 60px 0px 0px 10px;
+		transition: .5s;
+	}
+}
+
+
+@media (max-width: 1000px){
+	.collection2{
+		margin-left: 16%;
+		transition: .6s;
+	}
+
+	.collection2 a i{
+		margin-bottom: 1px;
+	}
+
+	.collection2 a {
+		float: left;
+	}
+
+	.valign-wrapper {
+	  display: inline-block;
+	  display: -ms-inline-block;
+	  display: inline-block;
+	  -webkit-align-items: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	}
+
+}
