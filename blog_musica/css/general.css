@@ -1,0 +1,165 @@
+.new-body{
+	background: url(../imagenes/saxofon.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+.navegacion{
+	height: 11%;
+	background-color: rgba(0, 0, 255,.75);
+	padding: 0 10px 0 10px;
+	transition: .5s;
+}
+
+.navegacion img{
+	min-height: 100px;
+}
+
+.navegacion i{
+	margin-left: 6px;
+	transition: .8s;
+}
+
+.redes-sociales{
+	margin-top: 64px;
+}
+
+.redes-sociales i:hover{
+	transform: scale(1.2,1.2);
+	opacity: .7;
+	transition: 1s;
+}
+
+.menu-blog{
+	margin-top: -43px;
+	padding-left: -165px;
+	background-color: rgba(255,255, 255,.9);
+}
+
+.color-blanco{
+	background-color: rgba(255,255, 255,.75);
+}
+
+.container{
+	margin-top: 9%;
+}
+
+.jumbotron{
+	background-color: rgba(46,0,30,.95);
+	/*rgba(0,10,255,.95);*/
+	background-size: cover;
+	text-align: center;
+	min-height: 500px;
+	padding: 25px 20px 40px 38px !important;
+	border-radius: 0px;
+	margin-top: 1%;
+}
+
+.jumbotron img{
+	margin-top: 9px;
+	width: 49%;
+	min-width: 185px;
+	margin-right: 12px;
+}
+
+.jumbotron-text{
+	font-size: 19px;
+	color: white;
+	margin-top: 5px;
+}
+
+.jumbotron-footer{
+	background-color: rgba(46,0,30,.95);
+	padding: 19px 0px 6px 0px;
+	border-radius: 2px;
+}
+
+.redes-sociales{
+	margin-top: 20px;
+}
+
+.sombra{
+	box-shadow: 1px 40px 30px black;
+}
+
+div[class*="col-"]{
+	padding-right: 18px;
+  	padding-left: 18px;
+}
+
+.list-group{
+	font-size: 16px;
+}
+
+.list-group-item{
+	/*background-color: #370000;*/
+	background-color: rgba(45,0,29,.95);
+}
+
+.bloque-fijo{
+	position: fixed;
+}
+
+
+@media (min-width: 670px) and (max-width: 992px) {
+	.menu-blog{
+		margin-top: -48px;
+		transition: .5s;
+	}
+
+	.jumbotron{
+		margin-top: 8%;
+	}
+
+	.bloque-fijo{
+		position: relative !important;
+	}
+
+}
+
+@media(max-width:770px){
+
+	.navegacion li{
+		width: 100%;
+		transition:.5s;
+	}
+
+	.navegacion{
+		text-align: center;
+		transition:.5s;
+		height: 41%;
+	}
+
+	.menu-blog{
+		margin-top: 8%;
+		background-color: rgba(95,95,95,.7);
+		transition: .5s;
+	}
+
+	.menu-blog *{
+		color: black !important;
+		transition: .8s;
+	}
+
+	.navbar-fixed-top{
+		position: absolute !important;
+	}
+
+	.container{
+		margin-top: 465px;
+	}
+
+	.jumbotron{
+		min-height: 350px;
+		margin-top: 9%;
+	}
+
+	.bloque-fijo{
+		position: relative !important;
+	}
+
+	.jumbotron-text{
+		font-size: 11px;
+	}
+
+
+}
